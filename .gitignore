@@ -1,0 +1,17 @@
+# Ambiente virtuale
+.venv/
+venv/
+
+# File compilati
+__pycache__/
+*.py[cod]
+
+# File Jupyter
+.ipynb_checkpoints/
+
+# Config temporanee
+.env
+*.log
+
+# VS Code
+.vscode/
