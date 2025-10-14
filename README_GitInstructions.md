@@ -18,9 +18,9 @@ The following instructions need to be followed any time a new local repository i
 
    Your git configuration is stored in `~/.gitconfig`, a file that you can always edit by hand.
 
-   * Define the central LaboratoryOfComputationalPhysics_Y7 repo as the upstream repository:
+   * Define the central LaboratoryOfComputationalPhysics_Y8 repo as the upstream repository:
 
-   `git remote add upstream https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics_Y7.git`
+   `git remote add upstream https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics_Y8.git`
 
    * Check that the previous commands succeeded:
 
