@@ -17,4 +17,4 @@ __pycache__/
 .vscode/
 
 # Shell script
-.sh
+*.sh
