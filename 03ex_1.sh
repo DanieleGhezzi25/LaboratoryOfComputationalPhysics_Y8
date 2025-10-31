@@ -75,3 +75,22 @@ for letter in {A..Z}; do
 done
 
 echo "Letter with the most students: $maxletter ($max students)"
+echo ""
+
+# 1.e
+for i in {0..17}; do
+    touch group$i.txt
+done
+
+for i in {0..17}; do
+    > group$i.txt
+done
+
+counter=0
+while IFS=',' read -r FamilyName Surname Email MasterProgram; do
+    rest=$((counter % 18))
+    echo "$FamilyName $Surname" >> "group$rest.txt"
+    ((counter++))
+done < <(tail -n +2 "$file")
+
+echo "Student divided in groups modulo 18"
