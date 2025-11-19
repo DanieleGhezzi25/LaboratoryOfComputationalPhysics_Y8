@@ -20,8 +20,10 @@ __pycache__/
 *.sh
 !GitSyncFork.sh
 
-# png and txt
+*.json
 *.png
 *.jpeg
 *.jpg
 *.txt
+*.h5
+*.hdf5
