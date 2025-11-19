@@ -18,3 +18,4 @@ __pycache__/
 
 # Shell script
 *.sh
+!GitSyncFork.sh
