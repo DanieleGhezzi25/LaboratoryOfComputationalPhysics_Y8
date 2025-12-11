@@ -31,3 +31,4 @@ __pycache__/
 *.csv
 *.data
 *.html
+*.npy
