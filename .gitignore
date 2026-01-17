@@ -8,6 +8,7 @@ __pycache__/
 
 # File Jupyter
 .ipynb_checkpoints/
+RandomExercises.ipynb
 
 # Config temporanee
 .env
